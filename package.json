@@ -22,4 +22,8 @@
   "scripts": {
     "build": "nyc --reporter=cobertura --reporter=html ./node_modules/.bin/mocha tests/**/*.js --reporter mocha-junit-reporter --reporter-options mochaFile=./TEST-RESULTS.xml"
   }
+  "scripts": {
+    "deploy:main": "echo 'Deploying main branch'" 
+    // Replace "echo 'Deploying main branch'" with your actual deployment command for the 'main' branch
+}
 }
